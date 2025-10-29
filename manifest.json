@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Think Before AI",
+  "version": "1.0.0",
+  "description": "生成AIサイトを開いたときに、その利用が本当に必要か問いかけるポップアップを表示します。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://gemini.google.com/*",
+        "https://claude.ai/*"
+      ],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
