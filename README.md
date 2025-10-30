@@ -53,7 +53,7 @@ cd think_before_ai
 
 以下は動作イメージのスクリーンショット例です。
 
-![ポップアップ例 1](assets/screenshot-1.svg)
+![ポップアップ例 1](assets/screenshot-1.png)
 
 ## 免責事項
 
